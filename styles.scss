@@ -301,3 +301,143 @@ span {
 .dots {
   display: none;
 }
+
+@media screen and (max-width: 1230px) {
+  .icon-ar {
+    left: 260px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .benefits {
+    width: 400px;
+  }
+  .baner {
+    width: 500px;
+    height: 400px;
+  }
+
+  .brands {
+    gap: 5px;
+  }
+
+  .dots {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .baner {
+    width: 400px;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+  }
+
+  .dot1,
+  .dot2,
+  .dot3 {
+    width: 8px;
+    height: 8px;
+    background-image: url("/imgs/grey-dot.png");
+  }
+
+  .brand1,
+  .brand2,
+  .brand3,
+  .brand4,
+  .brand5 {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar {
+    padding: 15px 50px;
+  }
+
+  .navbar-menu li {
+    margin-right: 15px;
+  }
+
+  .announcement {
+    line-height: 18px;
+    &::before {
+      content: "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)   |   FREE SHIPPING on orders > $200";
+    }
+  }
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+  }
+
+  .benefits,
+  .top-benefits {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+
+  h1 {
+    order: 1;
+    position: relative;
+    top: -650px;
+    right: -30px;
+  }
+
+  .baner {
+    order: 2;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .navbar {
+    padding: 10px 30px;
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    margin: 0;
+    width: 200px;
+  }
+
+  .announcement {
+    line-height: 18px;
+    &::before {
+      content: "FREE SHIPPING on orders > $200";
+    }
+    margin-bottom: 10px;
+  }
+
+  .navbar-menu li {
+    display: none;
+  }
+
+  .brand1,
+  .brand2,
+  .brand3,
+  .brand4,
+  .brand5 {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    width: 150px;
+  }
+}
