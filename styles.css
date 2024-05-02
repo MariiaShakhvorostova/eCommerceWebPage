@@ -359,11 +359,52 @@ span {
 }
 
 .carousel {
-  background-image: url("/imgs/car-ph.jpg");
   width: 433px;
   height: 648px;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.left-button,
+.right-button {
+  width: 10px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.left-button {
+  background-image: url("/imgs/left-button.png");
+  top: 305px;
+  right: -15px;
+}
+
+.right-button {
+  background-image: url("/imgs/right-button.png");
+  top: -400px;
+  left: 465px;
+}
+
+.carousel_container {
+  position: relative;
+  display: flex;
+  left: 150px;
+  top: -80px;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel_image {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel_image:not(.active) {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1230px) {
@@ -486,6 +527,18 @@ span {
   .hh {
     text-align: center;
     padding-top: 10px;
+  }
+  .carousel_container {
+    left: 130px;
+    top: -940px;
+  }
+  .left-button {
+    top: -670px;
+    right: -90px;
+  }
+  .right-button {
+    top: -1110px;
+    left: 370px;
   }
 }
 @media screen and (max-width: 680px) {
