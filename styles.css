@@ -284,4 +284,294 @@ span {
   display: none;
 }
 
+.top-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.top-benefits h2 {
+  font-family: Sofia, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgb(1, 0, 91);
+  margin-bottom: 30px;
+}
+
+.flex-cont-sec2 {
+  max-width: 530px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+
+.hh {
+  font-family: Sofia, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgb(1, 0, 91);
+}
+
+.pp {
+  font-family: Sofia, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgb(103, 104, 105);
+}
+
+.icon-top1,
+.icon-top2,
+.icon-top3,
+.icon-top4 {
+  width: 42px;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+}
+
+.icon-top1 {
+  background-image: url("/imgs/icon2.png");
+}
+
+.icon-top2 {
+  background-image: url("/imgs/top-ben2.png");
+}
+
+.icon-top3 {
+  background-image: url("/imgs/top-ben3.png");
+}
+
+.icon-top4 {
+  background-image: url("/imgs/top-ben4.png");
+}
+
+.carousel {
+  width: 433px;
+  height: 648px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.left-button,
+.right-button {
+  width: 10px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.left-button {
+  background-image: url("/imgs/left-button.png");
+  top: 305px;
+  right: -15px;
+}
+
+.right-button {
+  background-image: url("/imgs/right-button.png");
+  top: -400px;
+  left: 465px;
+}
+
+.carousel_container {
+  position: relative;
+  display: flex;
+  left: 150px;
+  top: -80px;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel_image {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel_image:not(.active) {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1230px) {
+  .icon-ar {
+    left: 260px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .benefits {
+    width: 400px;
+  }
+  .baner {
+    width: 500px;
+    height: 400px;
+  }
+  .brands {
+    gap: 5px;
+  }
+  .dots {
+    display: block;
+  }
+  .flex-cont-sec2 {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .baner {
+    width: 400px;
+    height: 300px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+  }
+  .dot1,
+  .dot2,
+  .dot3 {
+    width: 8px;
+    height: 8px;
+    background-image: url("/imgs/grey-dot.png");
+  }
+  .brand1,
+  .brand2,
+  .brand3,
+  .brand4,
+  .brand5 {
+    margin-right: 10px;
+  }
+  .flex-cont-sec2 {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .navbar {
+    padding: 15px 50px;
+  }
+  .navbar-menu li {
+    margin-right: 15px;
+  }
+  .announcement {
+    line-height: 18px;
+  }
+  .announcement::before {
+    content: "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)   |   FREE SHIPPING on orders > $200";
+  }
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+  }
+  .benefits,
+  .top-benefits {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+  h1 {
+    order: 1;
+    position: relative;
+    top: -650px;
+    right: -30px;
+  }
+  .baner {
+    order: 2;
+    width: 100%;
+  }
+  .top-ben-items {
+    position: relative;
+    top: 400px;
+  }
+  .carousel {
+    position: relative;
+    top: -900px;
+    height: 350px;
+    left: 90px;
+    margin-top: 30px;
+  }
+  .line {
+    width: 334px;
+    height: 1px;
+    background: rgba(196, 196, 196, 0.5);
+    margin: 20px 0;
+  }
+  .item {
+    display: block;
+  }
+  .item > * {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .pp,
+  .hh {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .carousel_container {
+    left: 130px;
+    top: -940px;
+  }
+  .left-button {
+    top: -670px;
+    right: -90px;
+  }
+  .right-button {
+    top: -1110px;
+    left: 370px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .navbar {
+    padding: 10px 30px;
+    justify-content: center;
+  }
+  .navbar-brand {
+    margin: 0;
+    width: 200px;
+  }
+  .announcement {
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .announcement::before {
+    content: "FREE SHIPPING on orders > $200";
+  }
+  .navbar-menu li {
+    display: none;
+  }
+  .brand1,
+  .brand2,
+  .brand3,
+  .brand4,
+  .brand5 {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    width: 150px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
