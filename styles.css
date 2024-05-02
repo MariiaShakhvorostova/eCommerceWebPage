@@ -1,0 +1,287 @@
+.container {
+  padding: 30px 100px;
+}
+
+.announcement {
+  background: rgb(249, 240, 230);
+  font-family: Inter, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 1;
+  text-overflow: ellipsis;
+}
+.announcement::before {
+  content: "CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)   |   FREE SHIPPING on orders > $200   |   easy 45 day return window.";
+}
+
+.navbar,
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px 100px;
+}
+
+.navbar-brand {
+  width: 200px;
+  height: 35px;
+  background-image: url("/imgs/LOGO.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.navbar-menu li:last-child {
+  margin-right: 0;
+}
+
+.navbar-menu li a {
+  color: rgb(86, 86, 86);
+  text-decoration: none;
+  font-family: Sofia, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.hero-section {
+  height: 422px;
+}
+
+.benefits {
+  max-width: 590px;
+}
+
+.benefits h1 {
+  font-family: Sofia, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgb(1, 0, 91);
+  margin-bottom: 30px;
+}
+
+.benefit {
+  display: flex;
+  max-width: 425px;
+  margin-bottom: 30px;
+  gap: 10px;
+  align-items: center;
+}
+
+.benefit p {
+  font-family: Sofia, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgb(103, 104, 105);
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 31px;
+  height: 31px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+}
+
+.icon1 {
+  background-image: url("/imgs/icon1.png");
+}
+
+.icon2 {
+  background-image: url("/imgs/icon2.png");
+}
+
+.icon3 {
+  background-image: url("/imgs/icon3.png");
+}
+
+.baner {
+  background-image: url("/imgs/banner.png");
+  width: 725px;
+  height: 422.48px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+}
+
+.button_customize {
+  position: relative;
+  max-width: 356px;
+  height: 56px;
+  color: white;
+  background: rgb(1, 0, 91);
+  text-align: center;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+button {
+  margin-left: -30px;
+  position: relative;
+}
+
+.icon-ar {
+  background-image: url("/imgs/icon-ar.png");
+  width: 23px;
+  top: 35px;
+  left: 280px;
+  height: 10px;
+  position: absolute;
+}
+
+.section_2_top_benefits {
+  height: 900px;
+  background: linear-gradient(180deg, #f9f0e5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
+  margin-top: 30px;
+}
+
+.rewiew {
+  position: relative;
+  top: 60px;
+  left: 100px;
+  width: 416px;
+  height: 172px;
+  border-radius: 5px;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.details-flex {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+}
+
+.army-ph {
+  background-image: url("/imgs/army-ph.png");
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stars {
+  background-image: url("/imgs/stars.png");
+  width: 60px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.marks {
+  font-family: Inter, sans-serif;
+  color: rgb(130, 130, 130);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.rewiew p {
+  font-family: Inter, sans-serif;
+  color: rgb(103, 104, 105);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+span {
+  font-family: Sofia, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(134, 135, 135);
+  position: relative;
+  top: 40px;
+  left: 50%;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.brand1,
+.brand2,
+.brand3,
+.brand4,
+.brand5 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+}
+
+.brand1 {
+  background-image: url("/imgs/brand1.png");
+  width: 170px;
+  height: 22px;
+}
+
+.brand2 {
+  background-image: url("/imgs/brand2.png");
+  width: 111px;
+  height: 52px;
+}
+
+.brand3 {
+  background-image: url("/imgs/brand3.png");
+  width: 271px;
+  height: 52px;
+}
+
+.brand4 {
+  background-image: url("/imgs/brand4.png");
+  width: 194px;
+  height: 37px;
+}
+
+.brand5 {
+  background-image: url("/imgs/brand5.png");
+  width: 192px;
+  height: 58px;
+}
+
+.dots {
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
