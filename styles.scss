@@ -394,6 +394,10 @@ span {
   .dots {
     display: block;
   }
+
+  .flex-cont-sec2 {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 1030px) {
@@ -428,6 +432,10 @@ span {
   .brand4,
   .brand5 {
     margin-right: 10px;
+  }
+
+  .flex-cont-sec2 {
+    max-width: 350px;
   }
 }
 
@@ -471,6 +479,42 @@ span {
   .baner {
     order: 2;
     width: 100%;
+  }
+
+  .top-ben-items {
+    position: relative;
+    top: 400px;
+  }
+
+  .carousel {
+    position: relative;
+    top: -900px;
+    height: 350px;
+    left: 90px;
+    margin-top: 30px;
+  }
+
+  .line {
+    width: 334px;
+    height: 1px;
+    background: rgba(196, 196, 196, 0.5);
+    margin: 20px 0;
+  }
+
+  .item {
+    display: block;
+  }
+
+  .item > * {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .pp,
+  .hh {
+    text-align: center;
+    padding-top: 10px;
   }
 }
 
