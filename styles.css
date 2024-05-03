@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .container {
   padding: 30px 100px;
 }
@@ -308,7 +312,11 @@ span {
 .item {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px;
+  gap: 30px;
+}
+
+.h-p {
+  margin-bottom: 40px;
 }
 
 .hh {
@@ -319,6 +327,7 @@ span {
   letter-spacing: 0.04em;
   text-align: left;
   color: rgb(1, 0, 91);
+  margin-bottom: 20px;
 }
 
 .pp {
@@ -343,7 +352,7 @@ span {
 }
 
 .icon-top1 {
-  background-image: url("/imgs/icon2.png");
+  background-image: url("/imgs/top-ben1.png");
 }
 
 .icon-top2 {
@@ -407,6 +416,85 @@ span {
   opacity: 0.5;
 }
 
+.section_3 {
+  height: 800px;
+  background: #f0eeef;
+  margin-top: 40px;
+}
+
+.photo-text-container {
+  padding-top: 100px;
+}
+
+.photo-text-container,
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ph2 {
+  background-image: url("/imgs/ph2.png");
+  width: 381.64px;
+  height: 570px;
+}
+
+.ph1 {
+  background-image: url("/imgs/ph1.png");
+  width: 165.06px;
+  height: 175px;
+  position: relative;
+  top: -250px;
+  left: 90px;
+}
+
+.ph3 {
+  background-image: url("/imgs/ph3.png");
+  width: 165.06px;
+  height: 175px;
+  position: relative;
+  top: 250px;
+  left: -60px;
+}
+
+.ph1,
+.ph2,
+.ph3 {
+  transition: transform 0.3s ease;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ph1:hover {
+  transform: translate(-50px, -50px);
+}
+
+.ph3:hover {
+  transform: translate(50px, 50px);
+}
+
+.text-container h3 {
+  font-family: Sofia, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #2a2996;
+}
+
+.text-container p {
+  font-family: Sofia, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin: 20px 0;
+  max-width: 600px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.none {
+  display: none;
+}
+
 @media screen and (max-width: 1230px) {
   .icon-ar {
     left: 260px;
@@ -429,6 +517,15 @@ span {
   .flex-cont-sec2 {
     max-width: 400px;
   }
+  .hh {
+    margin-bottom: 0;
+  }
+  .photo-text-container {
+    padding-top: 50px;
+  }
+  .photo-container {
+    width: 600px;
+  }
 }
 @media screen and (max-width: 1030px) {
   .baner {
@@ -443,7 +540,6 @@ span {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-top: 50px;
   }
   .dot1,
   .dot2,
@@ -458,9 +554,66 @@ span {
   .brand4,
   .brand5 {
     margin-right: 10px;
+    width: 150px;
   }
   .flex-cont-sec2 {
     max-width: 350px;
+  }
+  .top-benefits {
+    gap: 40px;
+  }
+  h2 {
+    font-size: 36px;
+    letter-spacing: 35px;
+  }
+  .h-p {
+    margin-bottom: 0;
+  }
+  .hh {
+    font-size: 18px;
+  }
+  .pp {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .carousel {
+    width: 400px;
+    height: 548px;
+  }
+  .right-button {
+    top: -300px;
+    left: 405px;
+  }
+  .photo-container {
+    width: 500px;
+  }
+  .ph3 {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .carousel {
+    width: 300px;
+    height: 448px;
+  }
+  .carousel_container {
+    left: 80px;
+  }
+  .right-button {
+    top: -250px;
+    left: 335px;
+  }
+  .section_3 {
+    height: 900px;
+  }
+  .left-button {
+    top: 255px;
+    right: -15px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .benefits h1 {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 850px) {
@@ -528,6 +681,9 @@ span {
     text-align: center;
     padding-top: 10px;
   }
+  .carousel-wrap {
+    margin-left: -150px;
+  }
   .carousel_container {
     left: 130px;
     top: -940px;
@@ -539,6 +695,45 @@ span {
   .right-button {
     top: -1110px;
     left: 370px;
+  }
+  .section_3 {
+    margin-top: 610px;
+    height: 1350px;
+  }
+  .photo-text-container {
+    display: ruby;
+  }
+  .photo-container {
+    padding-top: 150px;
+  }
+  .text-container h3 {
+    position: relative;
+    top: -690px;
+    text-align: center;
+  }
+  .text-container p {
+    margin-top: -80px;
+    width: 500px;
+    text-align: revert;
+  }
+  .ph1:hover {
+    transform: translate(-30px, -30px);
+  }
+  .ph3:hover {
+    transform: translate(30px, 30px);
+  }
+  .section_2_top_benefits {
+    height: 1000px;
+  }
+  .estimate {
+    position: relative;
+    top: -1340px;
+    right: -70px;
+  }
+  .editional {
+    position: relative;
+    top: 30px;
+    right: -45px;
   }
 }
 @media screen and (max-width: 680px) {
