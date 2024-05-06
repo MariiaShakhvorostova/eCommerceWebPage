@@ -36,7 +36,7 @@ body {
 .navbar-brand {
   width: 200px;
   height: 35px;
-  background-image: url("/imgs/LOGO.png");
+  background-image: url("./imgs/LOGO.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -120,19 +120,19 @@ body {
 }
 
 .icon1 {
-  background-image: url("/imgs/icon1.png");
+  background-image: url("./imgs/icon1.png");
 }
 
 .icon2 {
-  background-image: url("/imgs/icon2.png");
+  background-image: url("./imgs/icon2.png");
 }
 
 .icon3 {
-  background-image: url("/imgs/icon3.png");
+  background-image: url("./imgs/icon3.png");
 }
 
 .baner {
-  background-image: url("/imgs/banner.png");
+  background-image: url("./imgs/banner.png");
   width: 725px;
   height: 422.48px;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ button {
 }
 
 .icon-ar {
-  background-image: url("/imgs/icon-ar.png");
+  background-image: url("./imgs/icon-ar.png");
   width: 23px;
   top: 35px;
   left: 280px;
@@ -194,7 +194,7 @@ button {
 }
 
 .army-ph {
-  background-image: url("/imgs/army-ph.png");
+  background-image: url("./imgs/army-ph.png");
   width: 39px;
   height: 39px;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ button {
 }
 
 .stars {
-  background-image: url("/imgs/stars.png");
+  background-image: url("./imgs/stars.png");
   width: 60px;
   height: 20px;
   background-repeat: no-repeat;
@@ -255,31 +255,31 @@ span {
 }
 
 .brand1 {
-  background-image: url("/imgs/brand1.png");
+  background-image: url("./imgs/brand1.png");
   width: 170px;
   height: 22px;
 }
 
 .brand2 {
-  background-image: url("/imgs/brand2.png");
+  background-image: url("./imgs/brand2.png");
   width: 111px;
   height: 52px;
 }
 
 .brand3 {
-  background-image: url("/imgs/brand3.png");
+  background-image: url("./imgs/brand3.png");
   width: 271px;
   height: 52px;
 }
 
 .brand4 {
-  background-image: url("/imgs/brand4.png");
+  background-image: url("./imgs/brand4.png");
   width: 194px;
   height: 37px;
 }
 
 .brand5 {
-  background-image: url("/imgs/brand5.png");
+  background-image: url("./imgs/brand5.png");
   width: 192px;
   height: 58px;
 }
@@ -352,19 +352,19 @@ span {
 }
 
 .icon-top1 {
-  background-image: url("/imgs/top-ben1.png");
+  background-image: url("./imgs/top-ben1.png");
 }
 
 .icon-top2 {
-  background-image: url("/imgs/top-ben2.png");
+  background-image: url("./imgs/top-ben2.png");
 }
 
 .icon-top3 {
-  background-image: url("/imgs/top-ben3.png");
+  background-image: url("./imgs/top-ben3.png");
 }
 
 .icon-top4 {
-  background-image: url("/imgs/top-ben4.png");
+  background-image: url("./imgs/top-ben4.png");
 }
 
 .carousel {
@@ -385,13 +385,13 @@ span {
 }
 
 .left-button {
-  background-image: url("/imgs/left-button.png");
+  background-image: url("./imgs/left-button.png");
   top: 305px;
   right: -15px;
 }
 
 .right-button {
-  background-image: url("/imgs/right-button.png");
+  background-image: url("./imgs/right-button.png");
   top: -400px;
   left: 465px;
 }
@@ -434,13 +434,13 @@ span {
 }
 
 .ph2 {
-  background-image: url("/imgs/ph2.png");
+  background-image: url("./imgs/ph2.png");
   width: 381.64px;
   height: 570px;
 }
 
 .ph1 {
-  background-image: url("/imgs/ph1.png");
+  background-image: url("./imgs/ph1.png");
   width: 165.06px;
   height: 175px;
   position: relative;
@@ -449,7 +449,7 @@ span {
 }
 
 .ph3 {
-  background-image: url("/imgs/ph3.png");
+  background-image: url("./imgs/ph3.png");
   width: 165.06px;
   height: 175px;
   position: relative;
@@ -546,7 +546,7 @@ span {
   .dot3 {
     width: 8px;
     height: 8px;
-    background-image: url("/imgs/grey-dot.png");
+    background-image: url("./imgs/grey-dot.png");
   }
   .brand1,
   .brand2,
