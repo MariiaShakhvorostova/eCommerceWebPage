@@ -29,5 +29,5 @@ titles.forEach((title, index) => {
 
   const iconElement = topBenItems.querySelector(`.icon-top${index + 1}`);
 
-  iconElement.style.backgroundImage = `url("/imgs/top-ben${index + 1}.png")`;
+  iconElement.style.backgroundImage = `url("./imgs/top-ben${index + 1}.png")`;
 });
