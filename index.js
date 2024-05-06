@@ -1,10 +1,10 @@
 const carousel = document.querySelector(".carousel");
 const carouselContainer = document.querySelector(".carousel_container");
 const carouselImages = [
-  "/imgs/car-ph.jpg",
-  "/imgs/carousel-img1.png",
-  "/imgs/carousel-img2.png",
-  "/imgs/carousel-img3.png",
+  "./imgs/car-ph.jpg",
+  "./imgs/carousel-img1.png",
+  "./imgs/carousel-img2.png",
+  "./imgs/carousel-img3.png",
 ];
 let currentImageIndex = 0;
 
