@@ -1,3 +1,5 @@
+const topBenItems = document.querySelector(".top-ben-items");
+
 function render(title, iconIndex) {
   return `
       <div class="item">
@@ -21,8 +23,6 @@ const titles = [
   "Made for living in.",
   "Unimaginably comfortable.",
 ];
-
-const topBenItems = document.querySelector(".top-ben-items");
 
 titles.forEach((title, index) => {
   topBenItems.insertAdjacentHTML("beforeend", render(title, index + 1));
